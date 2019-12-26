@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>top_hw_platform_0_Traces</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.linuxtools.tmf.project.nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Traces/Run_二月-12_13-40/PS_Trace_二月-12_13-40/PS_Trace_二月-12_13-40_</name>
+			<type>1</type>
+			<location>E:/WorkSpace/project/FPGA/prj_sc2238_v2.0_emmc/prj_sc2238/prj_sc2238.sdk/top_hw_platform_0_Traces/Traces/.bookmarks</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX32
+Size               128M
+Start Address      0x00000000
+End Address        0x07FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x003DBAFB    Dec 26 16:01:37 2019    E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.bit

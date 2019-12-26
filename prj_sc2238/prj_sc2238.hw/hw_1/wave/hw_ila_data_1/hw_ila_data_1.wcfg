@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10286fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="group1" type="group">
+      <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group2" type="group">
+         <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AR Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_arvalid</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : ARVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_arready</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : ARREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_araddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_araddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_araddr[31:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : ARADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arlen" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arlen[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_arlen[7:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : ARLEN</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arsize" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_arsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_arsize[2:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : ARSIZE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_ar_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AR_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group9" type="group">
+         <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : R Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_rvalid</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : RVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_rready</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : RREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_rlast</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : RLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_rdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_rdata[63:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : RDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_r_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : R_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group15" type="group">
+         <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AW Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_awvalid</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AWVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_awready</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AWREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awaddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awaddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_awaddr[31:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AWADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awlen" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awlen[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_awlen[7:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AWLEN</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awsize" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_awsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_awsize[2:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AWSIZE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_aw_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : AW_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group22" type="group">
+         <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : W Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_wvalid</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : WVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_wready</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : WREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_wlast</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : WLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_wdata[63:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : WDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wstrb" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_wstrb[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_wstrb[7:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : WSTRB</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group28" type="group">
+         <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : B Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_bvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_bvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_bvalid</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : BVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_bready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_bready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_bready</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : BREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_bresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_bresp[1:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : BRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_b_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_2_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_2_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_2 : axi_vdma_imgCapture1_M_AXI_S2MM : B_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group33" type="group">
+      <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group34" type="group">
+         <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AR Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_arvalid</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : ARVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_arready</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : ARREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_araddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_araddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_araddr[31:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : ARADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arlen" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arlen[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_arlen[7:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : ARLEN</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arsize" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_arsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_arsize[2:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : ARSIZE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_ar_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AR_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group41" type="group">
+         <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : R Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_rvalid</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : RVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_rready</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : RREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_rlast</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : RLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_rdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_rdata[63:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : RDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_r_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : R_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group47" type="group">
+         <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AW Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_awvalid</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AWVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_awready</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AWREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awaddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awaddr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_awaddr[31:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AWADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awlen" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awlen[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_awlen[7:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AWLEN</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awsize" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_awsize[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_awsize[2:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AWSIZE</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_aw_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : AW_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group54" type="group">
+         <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : W Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_wvalid</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : WVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_wready</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : WREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_wlast</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : WLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wdata[63:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_wdata[63:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : WDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wstrb" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_wstrb[7:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_wstrb[7:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : WSTRB</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group60" type="group">
+         <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : B Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_bvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_bvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_bvalid</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : BVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_bready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_bready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_bready</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : BREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_bresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_bresp[1:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : BRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_b_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_3_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_3_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_3 : axi_vdma_imgCapture2_M_AXI_S2MM : B_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group65" type="group">
+      <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group66" type="group">
+         <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AR Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_arvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_arvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arvalid</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : ARVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_arready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_arready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arready</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : ARREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_araddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_araddr[8:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_araddr[8:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : ARADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_arprot" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_arprot[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_arprot[2:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : ARPROT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_ar_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AR_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group72" type="group">
+         <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : R Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rvalid</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : RVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rready</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : RREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rdata[31:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : RDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_rresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_rresp[1:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : RRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_r_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : R_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group78" type="group">
+         <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AW Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awvalid</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AWVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awready</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AWREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awaddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awaddr[8:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awaddr[8:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AWADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awprot" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_awprot[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_awprot[2:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AWPROT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_aw_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : AW_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group84" type="group">
+         <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : W Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wvalid</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : WVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wready</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : WREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wdata[31:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : WDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wstrb" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_wstrb[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_wstrb[3:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : WSTRB</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group89" type="group">
+         <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : B Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_bvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_bvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_bvalid</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : BVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_bready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_bready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_bready</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : BREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_bresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_bresp[1:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : BRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_b_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_0_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_0_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_0 : processing_system7_0_axi_periph_M05_AXI : B_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group94" type="group">
+      <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group95" type="group">
+         <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AR Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_arvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_arvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_arvalid</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : ARVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_arready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_arready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_arready</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : ARREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_araddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_araddr[8:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_araddr[8:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : ARADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_arprot" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_arprot[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_arprot[2:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : ARPROT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_ar_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_ar_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AR_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group101" type="group">
+         <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : R Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_rvalid</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : RVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_rready</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : RREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_rdata[31:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : RDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_rresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_rresp[1:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : RRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_r_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_r_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : R_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group107" type="group">
+         <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AW Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_awvalid</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AWVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_awready</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AWREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awaddr" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awaddr[8:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_awaddr[8:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AWADDR</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awprot" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_awprot[2:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_awprot[2:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AWPROT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_aw_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_aw_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : AW_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group113" type="group">
+         <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : W Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_wvalid</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : WVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_wready</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : WREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_wdata[31:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : WDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wstrb" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_wstrb[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_wstrb[3:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : WSTRB</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject fp_name="group118" type="group">
+         <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : B Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_bvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_bvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_bvalid</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : BVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_bready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_bready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_bready</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : BREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_bresp" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_bresp[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_bresp[1:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : BRESP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_b_cnt" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_1_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_1_axi_b_cnt[1:0]</obj_property>
+            <obj_property name="label">slot_1 : processing_system7_0_axi_periph_M06_AXI : B_CNT</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group123" type="group">
+      <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group124" type="group">
+         <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : T Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_4_axis_tvalid</obj_property>
+            <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : TVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_4_axis_tready</obj_property>
+            <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : TREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_4_axis_tlast</obj_property>
+            <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : TLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_4_axis_tdata[31:0]</obj_property>
+            <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : TDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tkeep" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tkeep[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_4_axis_tkeep[3:0]</obj_property>
+            <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : TKEEP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tuser" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_4_axis_tuser</obj_property>
+            <obj_property name="ObjectShortName">net_slot_4_axis_tuser</obj_property>
+            <obj_property name="label">slot_4 : S_AXIS_S2MM_0_1 : TUSER</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group131" type="group">
+      <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="group132" type="group">
+         <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : T Channel</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tvalid" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tvalid</obj_property>
+            <obj_property name="ObjectShortName">net_slot_5_axis_tvalid</obj_property>
+            <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : TVALID</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tready" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tready</obj_property>
+            <obj_property name="ObjectShortName">net_slot_5_axis_tready</obj_property>
+            <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : TREADY</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tlast" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tlast</obj_property>
+            <obj_property name="ObjectShortName">net_slot_5_axis_tlast</obj_property>
+            <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : TLAST</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tdata" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_5_axis_tdata[31:0]</obj_property>
+            <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : TDATA</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tkeep" type="array">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tkeep[3:0]</obj_property>
+            <obj_property name="ObjectShortName">net_slot_5_axis_tkeep[3:0]</obj_property>
+            <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : TKEEP</obj_property>
+            <obj_property name="Radix">HEXRADIX</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+         <wvobject fp_name="design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tuser" type="logic">
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="ElementShortName">design_1_wrapper_i/design_1_i/system_ila_0/inst/net_slot_5_axis_tuser</obj_property>
+            <obj_property name="ObjectShortName">net_slot_5_axis_tuser</obj_property>
+            <obj_property name="label">slot_5 : S_AXIS_S2MM_0_2 : TUSER</obj_property>
+            <obj_property name="LABELRADIX">true</obj_property>
+            <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Dec 26 15:18:17 2019
+# Process ID: 1756
+# Current directory: E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9840 E:\WorkSpace\project\FPGA\prj_sc2238\prj_sc2238\prj_sc2238.xpr
+# Log file: E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/vivado.log
+# Journal file: E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-748] XILINX_TCLAPP_REPO is set to 'D:/Xilinx/Vivado/2018.1/data/XilinxTclStore'. Refresh XilinxTclStore catalog is disabled when XILINX_TCLAPP_REPO is set.
+start_gui
+open_project E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/WorkSpace/project/FPGA_backup/prj_sc030_V2.0_emmc/prj_ocr/prj_ocr.srcs/sources_1/ip/SC30_0/SC30_0.upgrade_log'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/WorkSpace/project/FPGA_backup/prj_sc030_V2.0_emmc/prj_sc030/prj_sc030.srcs/sources_1/new/BIT10TABLE.coe'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/WorkSpace/project/FPGA/prj_sc030_V2.0_emmc/prj_sc030/prj_sc030.srcs/sources_1/new/BIT10TABLE.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/WorkSpace/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_1_processing_system7_0_0' generated file not found 'e:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/sim/libps7.so'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_processing_system7_0_0' generated file not found 'e:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/sim/libremoteport.so'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 1082.516 ; gain = 323.969
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/vga_href_delay.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/vga_vsync_delay.v] -no_script -reset -force -quiet
+remove_files  {E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/vga_href_delay.v E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/vga_vsync_delay.v}
+file delete -force E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/vga_href_delay.v E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/vga_vsync_delay.v
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Dec 26 15:19:18 2019] Launched synth_1...
+Run output will be captured here: E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/synth_1/runme.log
+[Thu Dec 26 15:19:18 2019] Launched impl_1...
+Run output will be captured here: E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/runme.log
+export_ip_user_files -of_objects  [get_files E:/WorkSpace/project/FPGA_backup/prj_sc030_V2.0_emmc/prj_ocr/prj_ocr.srcs/sources_1/ip/SC30_0/SC30_0.upgrade_log] -no_script -reset -force -quiet
+remove_files  E:/WorkSpace/project/FPGA_backup/prj_sc030_V2.0_emmc/prj_ocr/prj_ocr.srcs/sources_1/ip/SC30_0/SC30_0.upgrade_log
+export_ip_user_files -of_objects  [get_files E:/WorkSpace/project/FPGA/prj_sc030_V2.0_emmc/prj_sc030/prj_sc030.srcs/sources_1/new/BIT10TABLE.coe] -no_script -reset -force -quiet
+remove_files  E:/WorkSpace/project/FPGA/prj_sc030_V2.0_emmc/prj_sc030/prj_sc030.srcs/sources_1/new/BIT10TABLE.coe
+export_ip_user_files -of_objects  [get_files E:/WorkSpace/project/FPGA_backup/prj_sc030_V2.0_emmc/prj_sc030/prj_sc030.srcs/sources_1/new/BIT10TABLE.coe] -no_script -reset -force -quiet
+remove_files  E:/WorkSpace/project/FPGA_backup/prj_sc030_V2.0_emmc/prj_sc030/prj_sc030.srcs/sources_1/new/BIT10TABLE.coe
+export_ip_user_files -of_objects  [get_files E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/BIT10TABLE.coe] -no_script -reset -force -quiet
+remove_files  E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/BIT10TABLE.coe
+file delete -force E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.srcs/sources_1/new/BIT10TABLE.coe
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Dec 26 15:20:19 2019] Launched synth_1...
+Run output will be captured here: E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/synth_1/runme.log
+[Thu Dec 26 15:20:19 2019] Launched impl_1...
+Run output will be captured here: E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/runme.log
+write_cfgmem  -format bin -size 128 -interface SMAPx32 -loadbit {up 0x00000000 "E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.bit" } -force -disablebitswap -file "E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top"
+Command: write_cfgmem -format bin -size 128 -interface SMAPx32 -loadbit {up 0x00000000 "E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.bit" } -force -disablebitswap -file E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top
+Creating config memory files...
+INFO: [Writecfgmem 68-23] Start address provided has been multiplied by a factor of 4 due to the use of interface SMAPX32.
+Creating bitstream load up from address 0x00000000
+Loading bitfile E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.bit
+Writing file E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.bin
+Writing log file E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.prm
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX32
+Size               128M
+Start Address      0x00000000
+End Address        0x07FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x003DBAFB    Dec 26 16:01:37 2019    E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.bit
+1 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
