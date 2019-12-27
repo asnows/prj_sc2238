@@ -70,3 +70,5 @@ Addr1         Addr2         Date                    File(s)
 0x00000000    0x003DBAFB    Dec 26 16:01:37 2019    E:/WorkSpace/project/FPGA/prj_sc2238/prj_sc2238/prj_sc2238.runs/impl_1/top.bit
 1 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_cfgmem completed successfully
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Dec 26 17:35:27 2019...
